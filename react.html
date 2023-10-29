@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switching a Bulb </title>
+    <link rel="stylesheet" href="react.css">
+   
+</head>
+<body>
+    <header>
+        <h3>Bulb ON/OFF project by JS</h3>
+    </header>
+    <section>        
+        <img id="myImage" onclick="changeImage()" src="pic_bulboff.gif" height="300px">      
+    </section>
+    <div>
+
+        <button id="on" class="bulb_btn" onclick="document.getElementById('myImage').src='pic_bulbon.gif'">ON</button>
+        <button id="off" class="bulb_btn" onclick="document.getElementById('myImage').src='pic_bulboff.gif'">OFF</button>
+        
+    </div>
+      
+<!-- <script src="/react.js"></script> -->
+</body>
+</html>

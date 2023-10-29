@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color:#34dad4 ;
+    color: #28262e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+section{
+    /* height: 600px;
+    width: 100%; */
+    /* border: 2px solid red; */
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn_container{
+    margin-top: 50px;
+
+}
+.bulb_btn{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    margin: 20px 30px;
+    outline: none;
+    cursor: pointer;
+    background: #34dab4;
+    font-size: 20px;
+}
+div{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px ; */
+    
+}
