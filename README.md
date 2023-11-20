@@ -1,2 +1,2 @@
-# React_apps
-this is my basic applications on react 
+# Arduino
+this is my basic applications on Arduino 
